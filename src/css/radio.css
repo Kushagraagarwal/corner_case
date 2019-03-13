@@ -1,0 +1,110 @@
+.radioWrapper{
+    height: 450px;
+    width: 280px;
+    border-radius:21px;
+    /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19); */
+    box-shadow: 0px 14px 12px 0px rgba(21,21,28,1);
+    background-color: #2b2b36;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
+.radioHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ecaa5b;
+    height: 69px;
+    border-radius: 21px 21px 0px 0px;
+}
+.radioHeading{
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.backButton{
+    width:11px;
+    cursor: pointer;
+}
+.switch{
+    width:19px;
+    cursor: pointer;
+}
+.radioBody{
+    height: 321px;
+    padding: 23px 16px;
+    overflow-y: scroll;
+}
+.radioTab{
+    display: flex;
+    min-height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    color: #a2abbd;
+    border-bottom:0.5px solid #585f6b;
+    cursor: pointer;
+}
+.radioTabLast{
+    display: flex;
+    min-height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    color: #a2abbd;
+    border-bottom:0px;
+    cursor: pointer;
+}
+.radioTab:hover{
+    color: #6e7177;
+}
+.radioTabLast:hover{
+    color: #6e7177;
+}
+.radioName{
+    font-size: 18px;
+}
+.radioFrequency{
+    font-size: 18px;
+    font-weight: 700;
+}
+.radioFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 21px 21px;
+    background-color: #25252f;
+    border-top: 1px solid #515561;
+    height: 69px;
+}
+.subHead{
+    font-size: 10px;
+    color: #edae61;
+    font-weight: 700;
+}
+.currentRadio{
+    font-size: 18px;
+    margin-top: 3px;
+    color: #a2abbd;   
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.radioImage{
+    width: 124px;
+    margin-top: 16px;
+    border: 2px solid #a2abbd;
+    border-radius:50%;
+}
+.radioMinus{
+    width:24px;
+}
+.radioPlus{
+    width:24px;
+}
+.displayNone{
+    display: none;
+}
+::-webkit-scrollbar {
+    width: 3px;
+  }
